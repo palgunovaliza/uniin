@@ -1,0 +1,323 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=cyrillic');
+
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.square1{
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+	width: 1315px;
+	height: 1080px;
+	background: #FFD801;
+}
+
+.h2{
+  position: relative;
+  z-index: 20;
+  color: white;
+  padding: 8px 20px;
+  font-size: 377px;
+  font-weight: bold;
+  line-height: 70%;
+}
+
+.h1 {
+  position: relative;
+  z-index: 20;
+  padding: 30px 40px;
+  color: white;
+  font-size: 148px;
+  font-weight: bold;
+  line-height: 115%;
+}
+
+.square2 {
+  position: absolute;
+  z-index: 1;
+  left: 1315px;
+  top: 0px;
+	width: 604px;
+	height: 2160px;
+	background: blue;
+}
+
+.time {
+  position: absolute;
+  z-index: 99;
+  width: 280px;
+  background-color: red;
+  padding: 69px 85px;
+  left: 1315px;
+  top: 0px;
+}
+
+.logo {
+  position: fixed;
+  z-index: 99;
+  height: 200px;
+  left: 1812px;
+  top: 45px;
+
+}
+
+.square3{
+  position: absolute;
+  z-index: 1;
+  top: 1080px;
+	width: 1315px;
+	height: 1080px;
+	background: black;
+}
+
+.hand1 {
+  position: absolute;
+  width: 1125px;
+  z-index: 10;
+  top: 1080px;
+  left: 190px;
+}
+
+.hand2 {
+  position: absolute;
+  width: 800px;
+  z-index: 10;
+  top: 1689px;
+  left: 0px;
+}
+
+.h4 {
+  position: absolute;
+  width: 900px;
+  z-index: 30;
+  left: 1163px;
+  font-size: 50px;
+  top: 1540px;
+  color: white;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+
+.square12{
+  position: absolute;
+  z-index: 1;
+  top: 1572px;
+  width: 1366px;
+  height: 469px;
+  background: white;
+}
+
+.circle1 {
+  position: absolute;
+  z-index: 10;
+  width: 270px;
+  top: 2160px;
+  left: 1215px;
+}
+
+.circle2 {
+  position: absolute;
+  width: 270px;
+  z-index: 10;
+  top: 2632px;
+  left: 0px;
+}
+
+.circle3 {
+  position: absolute;
+  width: 376px;
+  z-index: 50;
+  top: 2525px;
+  left: 1544px;
+}
+
+.circle4 {
+  position: absolute;
+  z-index: 50;
+  width: 204px;
+  top: 1252px;
+  left: 0px;
+}
+
+.smile {
+  position: absolute;
+  z-index: 30;
+  width: 1075px;
+  background-color: black;
+  padding: 42px 69px;
+  top: 2877px;
+  left: 707px;
+}
+
+
+.h5 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 238px;
+  color: white;
+  font-weight: medium;
+  padding: 63px 92px;
+  top: 2877px;
+
+}
+
+.square4 {
+  position: absolute;
+  z-index: 1;
+  top: 3241px;
+	width: 600px;
+	height: 1490px;
+	background: #FFD801;
+}
+
+.square5 {
+  position: absolute;
+  z-index: 1;
+  top: 3241px;
+  left: 600px;
+	width: 1320px;
+	height: 1080px;
+	background: blue;
+}
+
+.planets {
+  position: absolute;
+  z-index: 10;
+  width: 830px;
+  top: 3220px;
+  left: -125px;
+
+}
+.h6 {
+  position: relative;
+  z-index: 50;
+  width: 20px;
+  color: white;
+  top: 2486px;
+  left: 726px;
+  font-size: 131px;
+  font-weight: bold;
+  line-height: 99%;
+}
+
+.square6 {
+  position: absolute;
+  z-index: 1;
+  top: 3242px;
+  left: 1140px;
+	width: 780px;
+	height: 630px;
+	background: red;
+}
+
+.square7 {
+  position: absolute;
+  z-index: 1;
+  top: 4321px;
+  left: 600px;
+	width:1320px;
+	height: 1080px;
+	background: black;
+}
+
+.hand3 {
+  position: absolute;
+  width: 995px;
+  z-index: 10;
+  top: 4321px;
+  left: 400px;
+}
+
+.hand4 {
+  position: absolute;
+  width: 955px;
+  z-index: 10;
+  top: 4433px;
+  left: 965px;
+}
+
+.circle5 {
+  position: absolute;
+  z-index: 5;
+  width: 237px;
+  top: 4347px;
+  left: 1683px;
+}
+
+.circle6 {
+  position: absolute;
+  z-index: 5;
+  width: 400px;
+  top: 4560px;
+  left: 15px;
+}
+
+.circle7 {
+  position: absolute;
+  z-index: 5;
+  width: 275px;
+  top: 5177px;
+  left: 0px;
+}
+
+.square8 {
+  position: absolute;
+  z-index: 1;
+  top: 5394px;
+	width: 960px;
+	height: 718px;
+	background: #FFD801;
+}
+
+.square9 {
+  position: absolute;
+  z-index: 20;
+  left: 960px;
+  top: 5394px;
+	width: 960px;
+	height: 718px;
+	background: blue;
+}
+
+.glas {
+  position: absolute;
+  z-index: 10;
+  width: 624px;
+  left: 134px;
+  top: 5798px;
+}
+
+.glas2 {
+  position: absolute;
+  z-index: 30;
+  width: 624px;
+  left: 1133px;
+  top: 5603px;
+}
+
+.h7 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 238px;
+  color: white;
+  font-weight: medium;
+  padding: 63px 93px;
+  left: 1215px;
+  top: 6111px;
+}
+
+.smile1 {
+  position: absolute;
+  z-index: 30;
+  width: 1075px;
+  background-color: black;
+  padding: 42px 70px;
+  top: 6111px;
+  left: 0px;
+}
