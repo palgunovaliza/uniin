@@ -99,17 +99,9 @@ font-family: 'Montserrat', sans-serif;
   left: 0px;
 }
 
-.circle13 {
-  position: absolute;
-  z-index: 15;
-  top: 1130px;
-  left: 599px;
+.circle4:hover {
+filter: hue-rotate(125deg);
 }
-
-.circle13:hover {
-opacity: 0;
-}
-
 
 .square5 {
   position: absolute;
@@ -128,7 +120,7 @@ opacity: 0;
   color: white;
   font-weight: medium;
   padding: 33px 40px;
-  top: 2184px;
+  top: 2185px;
 
 }
 
@@ -140,6 +132,10 @@ opacity: 0;
   left: 660px;
 }
 
+.circle1:hover {
+filter: hue-rotate(270deg);
+}
+
 .circle2 {
   position: absolute;
   z-index: 10;
@@ -148,12 +144,20 @@ opacity: 0;
   left: 0px;
 }
 
+.circle2:hover {
+filter: hue-rotate(170deg);
+}
+
 .circle3 {
   position: absolute;
   z-index: 50;
   width: 210px;
   top: 1995px;
   left: 772px;
+}
+
+.circle3:hover {
+filter: hue-rotate(200deg);
 }
 
 
@@ -168,11 +172,12 @@ opacity: 0;
 }
 
 .planets {
-  display: none;
+  position: absolute;
   z-index: 10;
-  width: 830px;
-  top: 3220px;
-  left: -1050px;
+  top: 2250px;
+  left: -25px;
+  opacity: 0;
+
 }
 
 
@@ -181,7 +186,7 @@ opacity: 0;
   z-index: 50;
   width: 20px;
   color: white;
-  top: 1503px;
+  top: 1299px;
   left: 40px;
   font-size: 95px;
   font-weight: bold;
@@ -231,7 +236,7 @@ opacity: 0;
   position: absolute;
   z-index: 10;
   width: 600px;
-  top: 3463px;
+  top: 3362px;
   left: 385px;
 }
 
@@ -249,8 +254,12 @@ opacity: 0;
   position: absolute;
   z-index: 5;
   width: 116px;
-  top: 3463px;
+  top: 3361px;
   left: 866px;
+}
+
+.circle5:hover {
+filter: hue-rotate(160deg);
 }
 
 .circle6 {
@@ -261,12 +270,20 @@ opacity: 0;
   left: 24px;
 }
 
+.circle6:hover {
+filter: hue-rotate(320deg);
+}
+
 .circle7 {
   position: absolute;
   z-index: 5;
   width: 150px;
   top: 4266px;
   left: 520px;
+}
+
+.circle7:hover {
+filter: hue-rotate(130deg);
 }
 
 .glas2 {
@@ -401,28 +418,24 @@ opacity: 0;
 
   .circle1 {
     width: 153px;
-    height: 104px;
     top: 1684px;
     left: 622px;
   }
 
   .circle4 {
     top: 931px;
-    width: 120px;
     height: 145px;
     left: 0px;
   }
 
   .circle2 {
     width: 197px;
-    height: 180px;
     top: 1886px;
     left: 0px;
   }
 
   .circle3 {
     width: 227px;
-    height: 284px;
     top: 1859px;
     left: 797px;
   }
@@ -466,16 +479,19 @@ opacity: 0;
   }
 
   .planets {
-    width: 503px;
-    height: 682px;
-    top: 2320px;
-    left: -104px;
+    position: absolute;
+    width: 527px;
+    z-index: 20;
+    top: 2333px;
+    left: -125px;
+    opacity: 1;
+
   }
 
   .h6 {
     width: 20px;
     color: white;
-    top: 1861px;
+    top: 1298px;
     left: 421px;
     font-size: 90px;
     font-weight: bold;
@@ -498,26 +514,23 @@ opacity: 0;
   .hand4 {
     width: 485px;
     top: 3326px;
-    left: 544px;
+    left: 540px;
   }
 
   .circle5 {
     width: 116px;
-    height: 168px;
-    top: 3285px;
+      top: 3285px;
     left: 909px;
   }
 
   .circle6 {
     width: 215px;
-    height: 213px;
     top: 3155px;
     left: 24px;
   }
 
   .circle7 {
     width: 150px;
-    height: 150px;
     top: 3710px;
     left: 0px;
   }
@@ -554,6 +567,7 @@ opacity: 0;
     background-color: black;
     padding: 27px 40px;
     top: 4374px;
+    left: 0px;
   }
 
   .h7 {
@@ -713,6 +727,15 @@ opacity: 0;
     padding: 42px 69px;
     top: 2877px;
     left: 707px;
+  }
+
+  .planets {
+    position: absolute;
+    width: 727px;
+    z-index: 99;
+    top: 2177px;
+    left: -125px;
+    opacity: 1;
   }
 
 
