@@ -99,6 +99,17 @@ font-family: 'Montserrat', sans-serif;
   left: 0px;
 }
 
+.circle13 {
+  position: absolute;
+  z-index: 15;
+  top: 1130px;
+  left: 599px;
+}
+
+.circle13:hover {
+opacity: 0;
+}
+
 
 .square5 {
   position: absolute;
@@ -170,7 +181,7 @@ font-family: 'Montserrat', sans-serif;
   z-index: 50;
   width: 20px;
   color: white;
-  top: 2052px;
+  top: 1503px;
   left: 40px;
   font-size: 95px;
   font-weight: bold;
@@ -558,20 +569,12 @@ font-family: 'Montserrat', sans-serif;
 }
 @media (min-width: 1280px) and (max-width: 1920px){
   .square1{
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     left: 0px;
     top: 0px;
   	width: 1315px;
   	height: 1080px;
-<<<<<<< HEAD
-  }
-
-  .h2{
-=======
   	background: #FFD801;
   }
 
@@ -579,7 +582,6 @@ font-family: 'Montserrat', sans-serif;
     position: relative;
     z-index: 20;
     color: white;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     padding: 8px 20px;
     font-size: 377px;
     font-weight: bold;
@@ -587,11 +589,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .h1 {
-<<<<<<< HEAD
-=======
     position: relative;
     z-index: 20;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     padding: 30px 40px;
     color: white;
     font-size: 148px;
@@ -600,11 +599,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square2 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     left: 1315px;
     top: 0px;
   	width: 604px;
@@ -613,11 +609,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .time {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 99;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 280px;
     background-color: red;
     padding: 69px 85px;
@@ -626,11 +619,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .logo {
-<<<<<<< HEAD
-=======
     position: fixed;
     z-index: 99;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     height: 200px;
     left: 1812px;
     top: 45px;
@@ -638,11 +628,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square3{
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 1080px;
   	width: 1315px;
   	height: 1080px;
@@ -650,33 +637,24 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .hand1 {
-<<<<<<< HEAD
-=======
     position: absolute;
     width: 1125px;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     z-index: 10;
     top: 1080px;
     left: 190px;
   }
 
   .hand2 {
-<<<<<<< HEAD
-=======
     position: absolute;
     width: 800px;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     z-index: 10;
     top: 1689px;
     left: 0px;
   }
 
   .h4 {
-<<<<<<< HEAD
-=======
     position: absolute;
     width: 900px;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     z-index: 30;
     left: 1163px;
     font-size: 50px;
@@ -687,11 +665,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square12{
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 1572px;
     width: 1366px;
     height: 469px;
@@ -699,21 +674,15 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .circle1 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 10;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 270px;
     top: 2160px;
     left: 1215px;
   }
 
   .circle2 {
-<<<<<<< HEAD
-=======
     position: absolute;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 270px;
     z-index: 10;
     top: 2632px;
@@ -721,10 +690,7 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .circle3 {
-<<<<<<< HEAD
-=======
     position: absolute;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 376px;
     z-index: 50;
     top: 2525px;
@@ -732,10 +698,7 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .circle4 {
-<<<<<<< HEAD
-=======
     position: absolute;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     z-index: 50;
     width: 204px;
     top: 1252px;
@@ -743,11 +706,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .smile {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 30;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 1075px;
     background-color: black;
     padding: 42px 69px;
@@ -757,11 +717,8 @@ font-family: 'Montserrat', sans-serif;
 
 
   .h5 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 30;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     background-color: red;
     font-size: 238px;
     color: white;
@@ -772,11 +729,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square4 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 3241px;
   	width: 600px;
   	height: 1490px;
@@ -784,11 +738,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square5 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 3241px;
     left: 600px;
   	width: 1320px;
@@ -797,25 +748,19 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .planets {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 10;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 830px;
     top: 3220px;
     left: -125px;
 
   }
   .h6 {
-<<<<<<< HEAD
-=======
     position: relative;
     z-index: 50;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     width: 20px;
     color: white;
-    top: 2486px;
+    top: 2177px;
     left: 726px;
     font-size: 131px;
     font-weight: bold;
@@ -823,11 +768,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square6 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 3242px;
     left: 1140px;
   	width: 780px;
@@ -836,11 +778,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   .square7 {
-<<<<<<< HEAD
-=======
     position: absolute;
     z-index: 1;
->>>>>>> 37d4c3defd375b644108de1d524f64d398414e7d
     top: 4321px;
     left: 600px;
   	width:1320px;
