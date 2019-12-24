@@ -1,0 +1,465 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=cyrillic');
+
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.square1{
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+	width: 935px;
+	height: 786px;
+	background: #FFD801;
+}
+
+.h2{
+  position: relative;
+  z-index: 20;
+  color: white;
+  padding: 20px;
+  font-size: 272px;
+  font-weight: bold;
+  line-height: 70%;
+}
+
+.h1 {
+  position: relative;
+  z-index: 20;
+  padding: 10px 30px;
+  color: white;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 115%;
+}
+
+.square2 {
+  position: absolute;
+  z-index: 1;
+  left: 935px;
+  top: 0px;
+	width: 431px;
+	height: 1572px;
+	background: blue;
+}
+
+.time {
+  position: absolute;
+  z-index: 99;
+  width: 194px;
+  background-color: red;
+  padding: 56px 76px;
+  left: 935px;
+  top: 0px;
+}
+
+.logo {
+  position: fixed;
+  z-index: 99;
+  height: 150px;
+  left: 1300px;
+  top: 28px;
+
+}
+
+.square3{
+  position: absolute;
+  z-index: 1;
+  top: 786px;
+	width: 935px;
+	height: 786px;
+	background: black;
+}
+
+.hand1 {
+  position: absolute;
+  z-index: 10;
+  top: 786px;
+  left: 38px;
+}
+
+.hand2 {
+  position: absolute;
+  z-index: 10;
+  top: 1100px;
+  left: 0px;
+}
+
+.circle13 {
+  position: absolute;
+  z-index: 15;
+  top: 1130px;
+  left: 599px;
+}
+
+.circle13:hover {
+opacity: 0;
+}
+
+
+.circle11 {
+  position: absolute;
+  width: 371px;
+  z-index: 15;
+  top: 1533px;
+  left: 287px;
+}
+
+.circle11:hover {
+opacity: 0;
+}
+
+.h4 {
+  position: absolute;
+  background: 200px;
+  z-index: 30;
+  left: 900px;
+  font-size: 30px;
+  top: 1020px;
+  color: white;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+
+
+.circle1 {
+  position: absolute;
+  z-index: 10;
+  top: 1572px;
+  left: 860px;
+}
+
+.circle8 {
+  position: absolute;
+  z-index: 8;
+  top: 1572px;
+  left: 860px;
+}
+
+.circle1:hover {
+opacity: 0;
+}
+
+
+
+
+.circle2 {
+  position: absolute;
+  z-index: 10;
+  top: 1837px;
+  left: 0px;
+}
+
+.circle10 {
+  position: absolute;
+  z-index: 9;
+  top: 1837px;
+  left: 0px;
+}
+
+.circle2:hover {
+opacity: 0;
+}
+
+.circle3 {
+  position: absolute;
+  z-index: 50;
+  top: 1740px;
+  left: 1056px;
+}
+
+.circle9 {
+  position: absolute;
+  z-index: 45;
+  top: 1740px;
+  left: 1056px;
+}
+
+.circle3:hover {
+opacity: 0;
+}
+
+.circle4 {
+  position: absolute;
+  z-index: 50;
+  top: 900px;
+  left: 0px;
+}
+
+.circle12 {
+  position: absolute;
+  z-index: 40;
+  top: 900px;
+  left: 0px;
+}
+
+.circle4:hover {
+opacity: 0;
+}
+
+.smile {
+  position: absolute;
+  z-index: 30;
+  width: 800px;
+  background-color: black;
+  padding: 41px 28px;
+  top: 2031px;
+  left: 510px;
+}
+
+
+.h5 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 185px;
+  color: white;
+  font-weight: medium;
+  padding: 53px;
+  top: 2031px;
+
+}
+
+.square4 {
+  position: absolute;
+  z-index: 1;
+  top: 2321px;
+	width: 460px;
+	height: 1103px;
+	background: #FFD801;
+}
+
+.square5 {
+  position: absolute;
+  z-index: 1;
+  top: 2321px;
+  left: 460px;
+	width: 905px;
+	height: 787px;
+	background: blue;
+}
+
+.planets {
+  position: absolute;
+  z-index: 10;
+  top: 2250px;
+  left: -125px;
+
+}
+.h6 {
+  position: relative;
+  z-index: 50;
+  width: 20px;
+  color: white;
+  top: 1720px;
+  left: 600px;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 95%;
+}
+
+.square6 {
+  position: absolute;
+  z-index: 1;
+  top: 2321px;
+  left: 946px;
+	width: 418px;
+	height: 458px;
+	background: red;
+}
+
+.square7 {
+  position: absolute;
+  z-index: 1;
+  top: 3108px;
+  left: 460px;
+	width: 905px;
+	height: 786px;
+	background: black;
+}
+
+.hand3 {
+  position: absolute;
+  z-index: 10;
+  top: 3108px;
+  left: 300px;
+}
+
+.hand4 {
+  position: absolute;
+  z-index: 12;
+  top: 3326px;
+  left: 846px;
+}
+
+.circle5 {
+  position: absolute;
+  z-index: 10;
+  top: 3260px;
+  left: 1205px;
+}
+
+.circle16 {
+  position: absolute;
+  z-index: 5;
+  top: 3260px;
+  left: 1205px;
+}
+
+.circle5:hover {
+opacity: 0;
+}
+
+
+.circle14 {
+  position: absolute;
+  z-index: 15;
+  top: 3338px;
+  left: 722px;
+}
+
+.circle15 {
+  position: absolute;
+  z-index: 15;
+  top: 3603px;
+  left: 1094px;
+}
+
+.circle15:hover {
+opacity: 0;
+}
+
+
+.circle14:hover {
+opacity: 0;
+}
+
+.circle6 {
+  position: absolute;
+  z-index: 10;
+  top: 3210px;
+  left: 15px;
+}
+
+.circle17 {
+  position: absolute;
+  z-index: 5;
+  top: 3210px;
+  left: 15px;
+}
+
+.circle6:hover {
+opacity: 0;
+}
+
+.circle7 {
+  position: absolute;
+  z-index: 20;
+  top: 3760px;
+  left: 0px;
+}
+
+.circle18 {
+  position: absolute;
+  z-index: 15;
+  top: 3760px;
+  left: 0px;
+}
+
+.circle7:hover {
+opacity: 0;
+}
+
+.square8 {
+  position: absolute;
+  z-index: 1;
+  top: 3894px;
+	width: 683px;
+	height: 469px;
+	background: #FFD801;
+}
+
+.square9 {
+  position: absolute;
+  z-index: 20;
+  left: 682px;
+  top: 3894px;
+	width: 683px;
+	height: 470px;
+	background: blue;
+}
+
+.glas {
+  position: absolute;
+  z-index: 10;
+  left: 115px;
+  top: 4150px;
+}
+
+.glas2 {
+  position: absolute;
+  z-index: 20;
+  left: 800px;
+  top: 4020px;
+}
+
+.glas3 {
+  position: absolute;
+  z-index: 10;
+  left: 93px;
+  top: 3999px;
+  animation-delay: blink 1s infinite linear;
+
+}
+
+.glas4 {
+  position: absolute;
+  z-index: 30;
+  left: 800px;
+  top: 4020px;
+  animation-delay: blink 1s infinite linear;
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  49% {
+    opacity: 1;
+  }
+
+  50%{
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.h7 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 185px;
+  color: white;
+  font-weight: medium;
+  padding: 53px;
+  left: 855px;
+  top: 4363px;
+}
+
+.smile1 {
+  position: absolute;
+  z-index: 30;
+  width: 800px;
+  background-color: black;
+  padding: 41px 28px;
+  top: 4363px;
+  left: 0px;
+}

@@ -1,0 +1,830 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=cyrillic');
+
+body{
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.h1 {
+  position: relative;
+  z-index: 20;
+  padding: 20px 25px;
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.h2{
+  position: relative;
+  z-index: 20;
+  color: white;
+  padding: 15px;
+  font-size: 190px;
+  font-weight: bold;
+  line-height: 55%;
+}
+
+.square1{
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+	width: 662px;
+	height: 850px;
+	background: #FFD801;
+}
+
+.square2 {
+  position: absolute;
+  z-index: 1;
+  left: 662px;
+  top: 0px;
+	width: 320px;
+  height: 849px;
+	background: blue;
+}
+
+.square3{
+  position: absolute;
+  z-index: 1;
+  top: 849px;
+	width: 982px;
+	height: 800px;
+	background: black;
+}
+
+.time {
+  position: absolute;
+  z-index: 99;
+  width: 130px;
+  background-color: red;
+  padding: 39px 55px;
+  left: 662px;
+  top: 0px;
+}
+
+.logo {
+  position: fixed;
+  z-index: 99;
+  height: 100px;
+  left: 925px;
+  top: 18px;
+
+}
+
+.hand1 {
+  position: absolute;
+  width: 800px;
+  z-index: 10;
+  top: 850px;
+  left: 181px;
+}
+
+.hand2 {
+  position: absolute;
+  z-index: 10;
+  width: 600px;
+  top: 1270px;
+  left: 0px;
+}
+
+.circle4 {
+  position: absolute;
+  z-index: 10;
+  top: 931px;
+  width: 140px;
+  left: 0px;
+}
+
+
+.square5 {
+  position: absolute;
+  z-index: 15;
+  top: 2386px;
+	width: 982px;
+	height: 913px;
+	background: blue;
+}
+
+.h5 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 137px;
+  color: white;
+  font-weight: medium;
+  padding: 33px 40px;
+  top: 2184px;
+
+}
+
+.circle1{
+  position: absolute;
+  z-index: 30;
+  top: 1649px;
+  width: 177px;
+  left: 660px;
+}
+
+.circle2 {
+  position: absolute;
+  z-index: 10;
+  width: 205px;
+  top: 1998px;
+  left: 0px;
+}
+
+.circle3 {
+  position: absolute;
+  z-index: 50;
+  width: 210px;
+  top: 1995px;
+  left: 772px;
+}
+
+
+.smile {
+  position: absolute;
+  z-index: 10;
+  width: 524px;
+  background-color: black;
+  padding: 33px 39px;
+  top: 2184px;
+  left: 380px;
+}
+
+.planets {
+  display: none;
+  z-index: 10;
+  width: 830px;
+  top: 3220px;
+  left: -1050px;
+}
+
+
+.h6 {
+  position: relative;
+  z-index: 50;
+  width: 20px;
+  color: white;
+  top: 2052px;
+  left: 40px;
+  font-size: 95px;
+  font-weight: bold;
+  line-height: 105%;
+}
+
+.square6 {
+  position: absolute;
+  z-index: 30;
+  top: 2386px;
+  left: 660px;
+	width: 322px;
+	height: 477px;
+	background: red;
+}
+
+.h4 {
+  position: absolute;
+  width: 700px;
+  z-index: 40;
+  left: 396px;
+  font-size: 43px;
+  top: 2800px;
+  color: white;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+
+.square7 {
+  position: absolute;
+  z-index: 1;
+  top: 3299px;
+	width: 982px;
+	height: 771px;
+	background: black;
+}
+
+.hand3 {
+  position: absolute;
+  z-index: 10;
+  width: 651px;
+  top: 3301px;
+  left: 5px;
+}
+
+.hand4 {
+  position: absolute;
+  z-index: 10;
+  width: 600px;
+  top: 3463px;
+  left: 385px;
+}
+
+
+.square4 {
+  position: absolute;
+  z-index: 1;
+  top: 4070px;
+	width: 520px;
+	height: 324px;
+	background: #FFD801;
+}
+
+.circle5 {
+  position: absolute;
+  z-index: 5;
+  width: 116px;
+  top: 3463px;
+  left: 866px;
+}
+
+.circle6 {
+  position: absolute;
+  z-index: 5;
+  width: 242px;
+  top: 3955px;
+  left: 24px;
+}
+
+.circle7 {
+  position: absolute;
+  z-index: 5;
+  width: 150px;
+  top: 4266px;
+  left: 520px;
+}
+
+.glas2 {
+  position: absolute;
+  width: 629px;
+  z-index: 30;
+  left: 165px;
+  top: 4595px;
+}
+
+.glas {
+  position: absolute;
+  width: 629px;
+  z-index: 30;
+  left: 165px;
+  top: 5526px;
+}
+
+.square9 {
+  position: absolute;
+  z-index: 10;
+  top: 4393px;
+	width: 982px;
+	height: 767px;
+	background: blue;
+}
+
+.square8 {
+  position: absolute;
+  z-index: 1;
+  top: 5160px;
+	width: 982px;
+	height: 769px;
+	background: #FFD801;
+}
+.smile1 {
+  position: absolute;
+  z-index: 10;
+  width: 524px;
+  background-color: black;
+  padding: 33px 39px;
+  top: 5929px;
+}
+
+
+.h7 {
+  position: absolute;
+  z-index: 30;
+  background-color: red;
+  font-size: 137px;
+  color: white;
+  font-weight: medium;
+  padding: 33px 41px;
+  top: 5929px;
+  left: 601px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .h2{
+    padding: 15px;
+    font-size: 202px;
+    font-weight: bold;
+    line-height: 70%;
+  }
+
+
+
+  .h1 {
+    padding: 15px 25px;
+    font-size: 80px;
+    line-height: 115%;
+  }
+
+  .square1{
+    left: 0px;
+    top: 0px;
+  	width: 703px;
+  	height: 771px;
+  	background: #FFD801;
+  }
+
+  .square2 {
+    left: 702px;
+    top: 0px;
+  	width: 323px;
+    height: 1684px;
+  }
+
+  .time {
+    width: 156px;
+    background-color: red;
+    padding: 38px 55px;
+    left: 702px;
+    top: 0px;
+  }
+
+  .logo {
+    height: 100px;
+    left: 983px;
+    top: 18px;
+
+  }
+
+  .square3{
+    top: 771px;
+  	width: 702px;
+  	height: 913px;
+  }
+
+  .hand1 {
+    width: 672px;
+    height: 588px;
+    z-index: 10;
+    top: 771px;
+    left: 30px;
+  }
+
+  .hand2 {
+    z-index: 10;
+    width: 444px;
+    height: 471px;
+    top: 1395px;
+    left: 0px;
+  }
+
+  .h4 {
+    width: 700px;
+    left: 515px;
+    font-size: 30px;
+    top: 1115px;
+  }
+
+  .circle1 {
+    width: 153px;
+    height: 104px;
+    top: 1684px;
+    left: 622px;
+  }
+
+  .circle4 {
+    top: 931px;
+    width: 120px;
+    height: 145px;
+    left: 0px;
+  }
+
+  .circle2 {
+    width: 197px;
+    height: 180px;
+    top: 1886px;
+    left: 0px;
+  }
+
+  .circle3 {
+    width: 227px;
+    height: 284px;
+    top: 1859px;
+    left: 797px;
+  }
+
+
+  .h5 {
+    background-color: red;
+    font-size: 137px;
+    color: white;
+    font-weight: medium;
+    padding: 33px;
+    top: 2066px;
+
+  }
+
+  .smile {
+    width: 580px;
+    padding: 27px 40px;
+    top: 2066px;
+    left: 365px;
+  }
+
+  .square4 {
+    top: 2267px;
+  	width: 335px;
+  	height: 1009px;
+  }
+
+  .square5 {
+    top: 2269px;
+    left: 335px;
+  	width: 690px;
+  	height: 771px;
+  }
+
+  .square6 {
+    top: 2269px;
+    left: 705px;
+  	width: 320px;
+  	height: 444px;
+  }
+
+  .planets {
+    width: 503px;
+    height: 682px;
+    top: 2320px;
+    left: -104px;
+  }
+
+  .h6 {
+    width: 20px;
+    color: white;
+    top: 1861px;
+    left: 421px;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 100%;
+  }
+
+  .square7 {
+    top: 3039px;
+    left: 353px;
+  	width: 672px;
+  	height: 771px;
+  }
+
+  .hand3 {
+    width: 651px;
+    top: 3039px;
+    left: 206px;
+  }
+
+  .hand4 {
+    width: 485px;
+    top: 3326px;
+    left: 544px;
+  }
+
+  .circle5 {
+    width: 116px;
+    height: 168px;
+    top: 3285px;
+    left: 909px;
+  }
+
+  .circle6 {
+    width: 215px;
+    height: 213px;
+    top: 3155px;
+    left: 24px;
+  }
+
+  .circle7 {
+    width: 150px;
+    height: 150px;
+    top: 3710px;
+    left: 0px;
+  }
+
+  .square8 {
+    top: 3810px;
+  	width: 513px;
+  	height: 565px;
+  }
+
+  .square9 {
+    left: 513px;
+    top: 3810px;
+  	width: 513px;
+  	height: 565px;
+  }
+
+  .glas {
+    width: 329px;
+    height: 104px;
+    left: 88px;
+    top: 4110px;
+  }
+
+  .glas2 {
+    width: 329px;
+    height: 171px;
+    left: 602px;
+    top: 4003px;
+  }
+
+  .smile1 {
+    width: 580px;
+    background-color: black;
+    padding: 27px 40px;
+    top: 4374px;
+  }
+
+  .h7 {
+    font-size: 137px;
+    font-weight: medium;
+    padding: 34px;
+    top: 4375px;
+    left: 659px;
+
+  }
+
+
+}
+@media (min-width: 1280px) and (max-width: 1920px){
+  .square1{
+    left: 0px;
+    top: 0px;
+  	width: 1315px;
+  	height: 1080px;
+  }
+
+  .h2{
+    padding: 8px 20px;
+    font-size: 377px;
+    font-weight: bold;
+    line-height: 70%;
+  }
+
+  .h1 {
+    padding: 30px 40px;
+    color: white;
+    font-size: 148px;
+    font-weight: bold;
+    line-height: 115%;
+  }
+
+  .square2 {
+    left: 1315px;
+    top: 0px;
+  	width: 604px;
+  	height: 2160px;
+  	background: blue;
+  }
+
+  .time {
+    width: 280px;
+    background-color: red;
+    padding: 69px 85px;
+    left: 1315px;
+    top: 0px;
+  }
+
+  .logo {
+    height: 200px;
+    left: 1812px;
+    top: 45px;
+
+  }
+
+  .square3{
+    top: 1080px;
+  	width: 1315px;
+  	height: 1080px;
+  	background: black;
+  }
+
+  .hand1 {
+    z-index: 10;
+    top: 1080px;
+    left: 190px;
+  }
+
+  .hand2 {
+    z-index: 10;
+    top: 1689px;
+    left: 0px;
+  }
+
+  .h4 {
+    z-index: 30;
+    left: 1163px;
+    font-size: 50px;
+    top: 1540px;
+    color: white;
+    font-weight: bold;
+    transform: rotate(90deg);
+  }
+
+  .square12{
+    top: 1572px;
+    width: 1366px;
+    height: 469px;
+    background: white;
+  }
+
+  .circle1 {
+    width: 270px;
+    top: 2160px;
+    left: 1215px;
+  }
+
+  .circle2 {
+    width: 270px;
+    z-index: 10;
+    top: 2632px;
+    left: 0px;
+  }
+
+  .circle3 {
+    width: 376px;
+    z-index: 50;
+    top: 2525px;
+    left: 1544px;
+  }
+
+  .circle4 {
+    z-index: 50;
+    width: 204px;
+    top: 1252px;
+    left: 0px;
+  }
+
+  .smile {
+    width: 1075px;
+    background-color: black;
+    padding: 42px 69px;
+    top: 2877px;
+    left: 707px;
+  }
+
+
+  .h5 {
+    background-color: red;
+    font-size: 238px;
+    color: white;
+    font-weight: medium;
+    padding: 63px 92px;
+    top: 2877px;
+
+  }
+
+  .square4 {
+    top: 3241px;
+  	width: 600px;
+  	height: 1490px;
+  	background: #FFD801;
+  }
+
+  .square5 {
+    top: 3241px;
+    left: 600px;
+  	width: 1320px;
+  	height: 1080px;
+  	background: blue;
+  }
+
+  .planets {
+    width: 830px;
+    top: 3220px;
+    left: -125px;
+
+  }
+  .h6 {
+    width: 20px;
+    color: white;
+    top: 2486px;
+    left: 726px;
+    font-size: 131px;
+    font-weight: bold;
+    line-height: 99%;
+  }
+
+  .square6 {
+    top: 3242px;
+    left: 1140px;
+  	width: 780px;
+  	height: 630px;
+  	background: red;
+  }
+
+  .square7 {
+    top: 4321px;
+    left: 600px;
+  	width:1320px;
+  	height: 1080px;
+  	background: black;
+  }
+
+  .hand3 {
+    position: absolute;
+    width: 995px;
+    z-index: 10;
+    top: 4321px;
+    left: 400px;
+  }
+
+  .hand4 {
+    position: absolute;
+    width: 955px;
+    z-index: 10;
+    top: 4433px;
+    left: 965px;
+  }
+
+  .circle5 {
+    position: absolute;
+    z-index: 5;
+    width: 237px;
+    top: 4347px;
+    left: 1683px;
+  }
+
+  .circle6 {
+    position: absolute;
+    z-index: 5;
+    width: 400px;
+    top: 4560px;
+    left: 15px;
+  }
+
+  .circle7 {
+    position: absolute;
+    z-index: 5;
+    width: 275px;
+    top: 5177px;
+    left: 0px;
+  }
+
+  .square8 {
+    position: absolute;
+    z-index: 1;
+    top: 5394px;
+  	width: 960px;
+  	height: 718px;
+  	background: #FFD801;
+  }
+
+  .square9 {
+    position: absolute;
+    z-index: 20;
+    left: 960px;
+    top: 5394px;
+  	width: 960px;
+  	height: 718px;
+  	background: blue;
+  }
+
+  .glas {
+    position: absolute;
+    z-index: 10;
+    width: 624px;
+    left: 134px;
+    top: 5798px;
+  }
+
+  .glas2 {
+    position: absolute;
+    z-index: 30;
+    width: 624px;
+    left: 1133px;
+    top: 5603px;
+  }
+
+  .h7 {
+    position: absolute;
+    z-index: 30;
+    background-color: red;
+    font-size: 238px;
+    color: white;
+    font-weight: medium;
+    padding: 63px 93px;
+    left: 1215px;
+    top: 6111px;
+  }
+
+  .smile1 {
+    position: absolute;
+    z-index: 30;
+    width: 1075px;
+    background-color: black;
+    padding: 42px 70px;
+    top: 6111px;
+    left: 0px;
+  }
+}
